@@ -1,0 +1,18 @@
+{
+  "name": "weatherwebapp",
+  "version": "1.0.0",
+  "description": "My Weather App ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18",
+    "requests": "^0.3.0"
+  }
+}
